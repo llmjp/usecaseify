@@ -17,11 +17,35 @@
     <lastmod>2026-07-12</lastmod>
   </url>
   <url>
+    <loc>https://llmjp.github.io/usecaseify/en/whitepaper/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/en/examples/end-to-end-example/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/en/guides/how-to-validate-a-use-case/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/en/guides/use-case-scoring-framework/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/en/comparisons/usecaseify-vs-chatgpt/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
     <loc>https://llmjp.github.io/usecaseify/en/faq/</loc>
     <lastmod>2026-07-12</lastmod>
   </url>
   <url>
     <loc>https://llmjp.github.io/usecaseify/en/glossary/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/en/ai-limitations/</loc>
     <lastmod>2026-07-12</lastmod>
   </url>
   <url>
@@ -37,6 +61,26 @@
     <lastmod>2026-07-12</lastmod>
   </url>
   <url>
+    <loc>https://llmjp.github.io/usecaseify/ja/whitepaper/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/ja/examples/end-to-end-example/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/ja/guides/how-to-validate-a-use-case/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/ja/guides/use-case-scoring-framework/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://llmjp.github.io/usecaseify/ja/comparisons/usecaseify-vs-chatgpt/</loc>
+    <lastmod>2026-07-12</lastmod>
+  </url>
+  <url>
     <loc>https://llmjp.github.io/usecaseify/ja/faq/</loc>
     <lastmod>2026-07-12</lastmod>
   </url>
@@ -45,7 +89,7 @@
     <lastmod>2026-07-12</lastmod>
   </url>
   <url>
-    <loc>https://llmjp.github.io/usecaseify/ja/whitepaper/</loc>
+    <loc>https://llmjp.github.io/usecaseify/ja/ai-limitations/</loc>
     <lastmod>2026-07-12</lastmod>
   </url>
 </urlset>

@@ -36,6 +36,10 @@ databases, or real-time market feeds.
 
 ## Process
 
+Counts in the steps below (four cards, ten dimensions, nine asset types, 1–8
+questions, one revision) reflect the current beta implementation, last
+reviewed 2026-07-12; the stages themselves are the stable methodology.
+
 1. **Product understanding.** A versioned product profile is drafted from the
    inputs. The user reviews, edits, and confirms it; nothing downstream runs
    against an unconfirmed profile.
@@ -129,3 +133,14 @@ Behavioral validation (measuring real clicks and sign-ups on test pages) is
 planned but not currently available. Until it ships, the highest evidence
 level reachable in practice comes from prospect feedback collected through
 validation pages.
+
+---
+
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+
+## Related documentation
+
+- [Use case scoring framework]({{ site.baseurl }}/en/guides/use-case-scoring-framework/)
+- [End-to-end example]({{ site.baseurl }}/en/examples/end-to-end-example/)
+- [How to validate a use case]({{ site.baseurl }}/en/guides/how-to-validate-a-use-case/)
+- [Product facts]({{ site.baseurl }}/en/product-facts/)

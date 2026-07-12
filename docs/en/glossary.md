@@ -113,3 +113,13 @@ misleading candidates are merged or removed early.
 An immutable snapshot of a completed decision — recommendation, main
 uncertainties, and next tests — shareable through a revocable public or
 password-protected link.
+
+---
+
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+
+## Related documentation
+
+- [Product facts]({{ site.baseurl }}/en/product-facts/)
+- [Methodology]({{ site.baseurl }}/en/methodology/)
+- [FAQ]({{ site.baseurl }}/en/faq/)

@@ -2,9 +2,11 @@
 
 > Find the use cases your market will actually respond to — before you have customer case studies.
 
-**UseCaseify** ([usecaseify.com](https://usecaseify.com/)) is a use case discovery and validation platform for product teams that do not yet have enough customer case studies. It analyzes a product from its website, files, or a written description, gathers traceable market evidence from public web sources, generates and scores use case opportunities, produces the go-to-market assets needed to test them, and collects structured feedback from real prospects. The output is not a pile of ideas: it is a ranked, evidence-linked recommendation of which use case, audience, and value proposition to take to market next, with the remaining uncertainties stated explicitly.
+**UseCaseify** ([usecaseify.com](https://usecaseify.com/)) is a use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects instead of guesswork. It analyzes a product from its website, files, or a written description, gathers cited evidence from public web sources, generates and scores use case opportunities, produces the go-to-market assets needed to test them, and collects structured feedback from real prospects. The output is not a pile of ideas: it is a ranked, evidence-linked recommendation with the remaining uncertainties stated explicitly.
 
-UseCaseify（ユースケーシファイ）は、顧客事例がまだ十分にそろっていないプロダクトチームのための、ユースケース発見・検証プラットフォームです。製品情報の分析、出典をたどれる市場エビデンスの収集、ユースケース機会の生成とスコアリング、検証用 GTM 素材の作成、実在の見込み顧客からのフィードバック収集までを一つのワークフローにまとめ、「誰に・どのユースケースを・どんな価値提案で」市場に出すかの判断を支援します。
+UseCaseify（ユースケーシファイ）は、出典をたどれる市場エビデンスと実在の見込み顧客からのフィードバックをもとに、「誰に・どのユースケースを・どんな価値提案で」市場に出すかを決められる、ユースケース発見・検証プラットフォームです。製品情報の分析からエビデンス収集、機会のスコアリング、検証用 GTM 素材の作成、見込み顧客からのフィードバック収集までを一つのワークフローにまとめ、勘に頼らない GTM の意思決定を支援します。
+
+**Try it:** [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.
 
 ## What problem does UseCaseify address?
 
@@ -16,7 +18,10 @@ In practice this decision work is scattered across search engines, note-taking t
 
 ## What does the current product do?
 
-All of the following is live in the current product (beta):
+All of the following is live in the current product. Specific counts and limits
+(cards, dimensions, asset types, question ranges) describe the **current beta
+implementation** — last reviewed 2026-07-12 — and may be tuned during beta; the
+workflow itself is the stable part.
 
 - **Product understanding** — Build a product profile from a website URL (bounded crawl of public pages), uploaded files, or manual text. The profile is versioned, and you review, edit, and confirm it before anything downstream runs.
 - **Market research and evidence** — Multilingual web research collects verbatim quotes with their sources, classified as supporting, contradicting, neutral, or context. You can add your own evidence and filter the evidence workspace.
@@ -64,6 +69,18 @@ See [Methodology](https://llmjp.github.io/usecaseify/en/methodology/) for detail
 
 Planned items describe direction, not commitments; they may change or be dropped based on validation results.
 
+## What UseCaseify is not
+
+- UseCaseify does **not** manufacture customer case studies. Generated use
+  cases are hypotheses or illustrative scenarios grounded in market evidence,
+  and are labeled as such.
+- UseCaseify does **not** treat synthetic (AI) feedback as real customer
+  validation. Only responses from real prospects count as validation signals.
+- UseCaseify does **not** guarantee product-market fit, conversion rates, or
+  any business outcome. Scores and recommendations are decision support.
+- UseCaseify is **not** a general-purpose copywriting suite, an ad platform,
+  or a website builder, and it does not replace talking to customers.
+
 ## Public resources
 
 - [Documentation home](https://llmjp.github.io/usecaseify/) — English and Japanese
@@ -71,7 +88,12 @@ Planned items describe direction, not commitments; they may change or be dropped
 - [Methodology (EN)](https://llmjp.github.io/usecaseify/en/methodology/) / [方法論 (JA)](https://llmjp.github.io/usecaseify/ja/methodology/)
 - [FAQ (EN)](https://llmjp.github.io/usecaseify/en/faq/) / [よくある質問 (JA)](https://llmjp.github.io/usecaseify/ja/faq/)
 - [Glossary (EN)](https://llmjp.github.io/usecaseify/en/glossary/) / [用語集 (JA)](https://llmjp.github.io/usecaseify/ja/glossary/)
-- [ホワイトペーパー (JA)](https://llmjp.github.io/usecaseify/ja/whitepaper/)
+- [Whitepaper (EN)](https://llmjp.github.io/usecaseify/en/whitepaper/) / [ホワイトペーパー (JA)](https://llmjp.github.io/usecaseify/ja/whitepaper/)
+- [End-to-end example (EN)](https://llmjp.github.io/usecaseify/en/examples/end-to-end-example/) / [エンドツーエンド例 (JA)](https://llmjp.github.io/usecaseify/ja/examples/end-to-end-example/) — a fictional product walked through the whole workflow
+- [How to validate a use case (EN)](https://llmjp.github.io/usecaseify/en/guides/how-to-validate-a-use-case/) / [ユースケース検証ガイド (JA)](https://llmjp.github.io/usecaseify/ja/guides/how-to-validate-a-use-case/)
+- [Use case scoring framework (EN)](https://llmjp.github.io/usecaseify/en/guides/use-case-scoring-framework/) / [スコアリングフレームワーク (JA)](https://llmjp.github.io/usecaseify/ja/guides/use-case-scoring-framework/)
+- [UseCaseify vs ChatGPT (EN)](https://llmjp.github.io/usecaseify/en/comparisons/usecaseify-vs-chatgpt/) / [UseCaseify と ChatGPT の違い (JA)](https://llmjp.github.io/usecaseify/ja/comparisons/usecaseify-vs-chatgpt/)
+- [AI limitations (EN)](https://llmjp.github.io/usecaseify/en/ai-limitations/) / [AI の限界 (JA)](https://llmjp.github.io/usecaseify/ja/ai-limitations/)
 - [llms.txt](https://llmjp.github.io/usecaseify/llms.txt) — machine-readable summary for AI systems
 
 ## Official links
@@ -92,3 +114,8 @@ Code contributions are not applicable here. Factual corrections, broken-link rep
 ## Citation
 
 To cite UseCaseify or this documentation, use the metadata in [CITATION.cff](CITATION.cff). Publisher: LLM JAPAN, LLC.
+
+## Last reviewed
+
+2026-07-12, against the deployed product at [usecaseify.com](https://usecaseify.com/).
+For conflicts between documents, [Product facts](https://llmjp.github.io/usecaseify/en/product-facts/) is the current source of truth.

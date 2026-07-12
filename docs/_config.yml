@@ -13,3 +13,9 @@ webmaster_verifications:
 header_pages:
   - en/index.md
   - ja/index.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-card.png

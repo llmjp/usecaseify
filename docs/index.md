@@ -22,21 +22,44 @@ permalink: /
 }
 </script>
 
-UseCaseify is a use case discovery and validation platform for product teams
-that do not yet have enough customer case studies. It combines product
-analysis, traceable market evidence, comparable opportunity scoring, GTM test
-assets, and feedback from real prospects into one workflow, so teams can decide
-which use case, audience, and value proposition to take to market. The product
-lives at [usecaseify.com](https://usecaseify.com/); this site is its official
-public reference.
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "UseCaseify",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "url": "https://usecaseify.com/",
+  "description": "A use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects.",
+  "publisher": { "@type": "Organization", "name": "LLM JAPAN, LLC" },
+  "inLanguage": ["ja", "zh", "en"]
+}
+</script>
+
+**Find the use case your market will actually respond to — before you have
+customer case studies.**
+
+UseCaseify is a use case discovery and validation platform that helps product
+teams decide which use case, audience, and value proposition to take to market
+— backed by traceable market evidence and feedback from real prospects instead
+of guesswork. It combines product analysis, cited evidence, comparable
+opportunity scoring, GTM test assets, and prospect validation into one
+workflow. The product lives at [usecaseify.com](https://usecaseify.com/);
+this site is its official public reference.
 
 ## English
 
 - [Overview]({{ site.baseurl }}/en/)
 - [Product facts]({{ site.baseurl }}/en/product-facts/)
 - [Methodology]({{ site.baseurl }}/en/methodology/)
+- [Whitepaper]({{ site.baseurl }}/en/whitepaper/)
+- [End-to-end example]({{ site.baseurl }}/en/examples/end-to-end-example/)
+- [How to validate a use case]({{ site.baseurl }}/en/guides/how-to-validate-a-use-case/)
+- [Use case scoring framework]({{ site.baseurl }}/en/guides/use-case-scoring-framework/)
+- [UseCaseify vs ChatGPT]({{ site.baseurl }}/en/comparisons/usecaseify-vs-chatgpt/)
 - [FAQ]({{ site.baseurl }}/en/faq/)
 - [Glossary]({{ site.baseurl }}/en/glossary/)
+- [AI limitations]({{ site.baseurl }}/en/ai-limitations/)
 
 ## 日本語
 
@@ -49,9 +72,14 @@ UseCaseify は、顧客事例がまだ十分にそろっていないプロダク
 - [概要]({{ site.baseurl }}/ja/)
 - [プロダクトファクト]({{ site.baseurl }}/ja/product-facts/)
 - [方法論]({{ site.baseurl }}/ja/methodology/)
+- [ホワイトペーパー]({{ site.baseurl }}/ja/whitepaper/)
+- [エンドツーエンド例]({{ site.baseurl }}/ja/examples/end-to-end-example/)
+- [ユースケース検証ガイド]({{ site.baseurl }}/ja/guides/how-to-validate-a-use-case/)
+- [スコアリングフレームワーク]({{ site.baseurl }}/ja/guides/use-case-scoring-framework/)
+- [UseCaseify と ChatGPT の違い]({{ site.baseurl }}/ja/comparisons/usecaseify-vs-chatgpt/)
 - [よくある質問]({{ site.baseurl }}/ja/faq/)
 - [用語集]({{ site.baseurl }}/ja/glossary/)
-- [ホワイトペーパー]({{ site.baseurl }}/ja/whitepaper/)
+- [AI の限界]({{ site.baseurl }}/ja/ai-limitations/)
 
 ## Official product
 

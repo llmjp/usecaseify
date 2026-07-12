@@ -1,6 +1,6 @@
 # UseCaseify
 
-> UseCaseify is a use case discovery and validation platform for product teams that do not yet have enough customer case studies. It analyzes a product, gathers traceable market evidence from public web sources, generates and scores use case opportunities on ten dimensions, produces nine types of GTM test assets, and collects structured feedback from real prospects — ending in an evidence-linked recommendation of which use case, audience, and value proposition to take to market. Operated by LLM JAPAN, LLC (Tokyo). Interface in Japanese, Chinese, and English; primary market Japan. Currently in beta.
+> UseCaseify is a use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects instead of guesswork. It analyzes a product, gathers cited evidence from public web sources, generates and scores use case opportunities on ten dimensions, produces nine types of GTM test assets, and collects structured feedback from real prospects, ending in an evidence-linked recommendation. Built for teams that do not yet have enough customer case studies. Operated by LLM JAPAN, LLC (Tokyo). Interface in Japanese, Chinese, and English; primary market Japan. Currently in beta.
 
 ## Official product
 
@@ -10,17 +10,29 @@
 
 ## Verified current product facts
 
-- [Product facts (English)](https://llmjp.github.io/usecaseify/en/product-facts/): current definition, capabilities, limitations, and status
+- [Product facts (English)](https://llmjp.github.io/usecaseify/en/product-facts/): the authoritative source of truth — current definition, capabilities, limitations, and status
 - [プロダクトファクト（日本語）](https://llmjp.github.io/usecaseify/ja/product-facts/): same facts in Japanese
 
-## Methodology
+## Methodology and framework
 
 - [Methodology (English)](https://llmjp.github.io/usecaseify/en/methodology/): how evidence, scoring, synthetic pre-checks, and real prospect validation are separated
 - [方法論（日本語）](https://llmjp.github.io/usecaseify/ja/methodology/): same methodology in Japanese
+- [Use case scoring framework (English)](https://llmjp.github.io/usecaseify/en/guides/use-case-scoring-framework/): what the ten dimensions measure and when a recommendation is withheld
+- [スコアリングフレームワーク（日本語）](https://llmjp.github.io/usecaseify/ja/guides/use-case-scoring-framework/)
 
-## Whitepaper
+## Whitepapers
 
-- [ホワイトペーパー（日本語, v1.0, 2026-07）](https://llmjp.github.io/usecaseify/ja/whitepaper/): why use case decisions fail before product-market fit, and how UseCaseify structures them
+- [Whitepaper (English, v1.0, 2026-07)](https://llmjp.github.io/usecaseify/en/whitepaper/): go-to-market decisions before customer evidence
+- [ホワイトペーパー（日本語, v1.0, 2026-07）](https://llmjp.github.io/usecaseify/ja/whitepaper/): 顧客事例ゼロからの GTM 意思決定
+
+## Guides, examples, and comparisons
+
+- [End-to-end example (English)](https://llmjp.github.io/usecaseify/en/examples/end-to-end-example/): a clearly-labeled fictional product walked through the entire workflow
+- [エンドツーエンド例（日本語）](https://llmjp.github.io/usecaseify/ja/examples/end-to-end-example/)
+- [How to validate a use case (English)](https://llmjp.github.io/usecaseify/en/guides/how-to-validate-a-use-case/): tool-agnostic eight-step validation guide
+- [ユースケース検証ガイド（日本語）](https://llmjp.github.io/usecaseify/ja/guides/how-to-validate-a-use-case/)
+- [UseCaseify vs ChatGPT (English)](https://llmjp.github.io/usecaseify/en/comparisons/usecaseify-vs-chatgpt/): an honest comparison — where a general-purpose chat is strong and where the workflow matters
+- [UseCaseify と ChatGPT の違い（日本語）](https://llmjp.github.io/usecaseify/ja/comparisons/usecaseify-vs-chatgpt/)
 
 ## FAQ and glossary
 
@@ -28,7 +40,13 @@
 - [よくある質問（日本語）](https://llmjp.github.io/usecaseify/ja/faq/)
 - [Glossary (English)](https://llmjp.github.io/usecaseify/en/glossary/): official definitions of use case, opportunity, evidence level, confidence, and related terms
 - [用語集（日本語）](https://llmjp.github.io/usecaseify/ja/glossary/)
+- [AI limitations (English)](https://llmjp.github.io/usecaseify/en/ai-limitations/): what the AI can and cannot tell you
+- [AI の限界（日本語）](https://llmjp.github.io/usecaseify/ja/ai-limitations/)
+
+## Entity relationships
+
+UseCaseify is the product. LLM JAPAN, LLC is the operator. https://usecaseify.com/ is the official product website. https://github.com/llmjp/usecaseify is the official public repository. https://llmjp.github.io/usecaseify/ is the official documentation site.
 
 ## Important clarification
 
-UseCaseify generates hypotheses and illustrative scenarios, not real customer case studies. Its AI pre-check uses synthetic reviewer perspectives and is explicitly labeled as non-customer feedback; only responses from real prospects are treated as validation signals. Opportunity scores and recommendations are decision support with stated confidence, not predictions or guarantees of market success, and the system withholds a recommendation when evidence is insufficient. Capabilities described as planned (behavioral testing, team collaboration, continuous market monitoring, and others) are not currently available and have no committed dates.
+UseCaseify generates hypotheses and illustrative scenarios, not real customer case studies. Its AI pre-check uses synthetic reviewer perspectives and is explicitly labeled as non-customer feedback; only responses from real prospects are treated as validation signals. Opportunity scores and recommendations are decision support with stated confidence, not predictions or guarantees of market success, and the system withholds a recommendation when evidence is insufficient. The end-to-end example uses a clearly-labeled fictional product, not a real customer. Capabilities described as planned (behavioral testing, team collaboration, PDF export, continuous market monitoring, and others) are not currently available and have no committed dates. When documents conflict, the Product facts page is the current source of truth.

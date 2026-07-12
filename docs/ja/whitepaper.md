@@ -17,6 +17,20 @@ lang: ja
 > ください。本書のうち「今後の方向」に記載した内容は現在提供されておらず、
 > 提供時期の確約もありません。
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "顧客事例ゼロからの GTM 意思決定 — ユースケース発見・検証の方法論",
+  "version": "1.0",
+  "datePublished": "2026-07-12",
+  "inLanguage": "ja",
+  "author": { "@type": "Organization", "name": "LLM JAPAN, LLC" },
+  "publisher": { "@type": "Organization", "name": "LLM JAPAN, LLC" },
+  "about": "UseCaseify"
+}
+</script>
+
 ## 1. エグゼクティブサマリー
 
 プロダクトはできた。しかし導入事例はまだない。この段階のチームが直面する

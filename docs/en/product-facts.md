@@ -7,8 +7,15 @@ permalink: /en/product-facts/
 
 # UseCaseify Product Facts
 
-This page states only verifiable facts about UseCaseify as currently deployed.
-It is the reference other UseCaseify documents are kept consistent with.
+> **Authority level:** current product facts ·
+> **Product stage:** beta ·
+> **Last reviewed:** 2026-07-12
+
+This page is the authoritative public reference for current UseCaseify product
+behavior. It states only verifiable facts about the deployed product. When
+another document conflicts with this page, this page should be treated as the
+current source of truth. Counts and limits marked *current beta implementation*
+may be tuned during beta; the workflow they describe is stable.
 
 ## Identity
 
@@ -22,12 +29,13 @@ It is the reference other UseCaseify documents are kept consistent with.
 
 ## Current product definition
 
-UseCaseify is a use case discovery and validation platform for product teams
-that do not yet have enough customer case studies. It analyzes a product,
-gathers traceable market evidence from public web sources, generates and scores
-use case opportunities, produces the GTM assets needed to test them, and
-collects structured feedback from real prospects, so teams can decide which use
-case, audience, and value proposition to take to market.
+UseCaseify is a use case discovery and validation platform that helps product
+teams decide which use case, audience, and value proposition to take to market
+— backed by traceable market evidence and feedback from real prospects instead
+of guesswork. It analyzes a product, gathers cited evidence from public web
+sources, generates and scores use case opportunities, produces the GTM assets
+needed to test them, and collects structured feedback from real prospects. It
+is built for teams that do not yet have enough customer case studies.
 
 Its category is **Use Case Discovery & Validation** — decision support for
 go-to-market choices made before product-market fit.
@@ -54,7 +62,9 @@ authoritative current pricing is on the
 
 ## Current capabilities
 
-Each item below is a shipped behavior of the current product:
+Each item below is a shipped behavior of the current product. Specific numbers
+(four cards, ten dimensions, nine asset types, 1–8 questions, one revision) are
+the current beta implementation as of 2026-07-12:
 
 - **Product understanding.** A product profile is built from a website URL
   (a bounded crawl of public pages), uploaded files, or manual text. The
@@ -157,6 +167,27 @@ exactly that.
 - This documentation repository:
   [https://github.com/llmjp/usecaseify](https://github.com/llmjp/usecaseify)
 
+## Source hierarchy
+
+When UseCaseify documents disagree, resolve in this order:
+
+1. **Product facts** (this page) — current authoritative product behavior
+2. [Methodology]({{ site.baseurl }}/en/methodology/) — authoritative process and reasoning framework
+3. [FAQ]({{ site.baseurl }}/en/faq/) — explanatory answers
+4. [Whitepaper]({{ site.baseurl }}/en/whitepaper/) — conceptual and strategic interpretation
+5. [Changelog](https://github.com/llmjp/usecaseify/blob/main/CHANGELOG.md) — historical documentation changes
+
 ## Last reviewed
 
 2026-07-12, against the deployed product at usecaseify.com.
+
+---
+
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+
+## Related documentation
+
+- [Methodology]({{ site.baseurl }}/en/methodology/)
+- [End-to-end example]({{ site.baseurl }}/en/examples/end-to-end-example/)
+- [FAQ]({{ site.baseurl }}/en/faq/)
+- [AI limitations]({{ site.baseurl }}/en/ai-limitations/)
