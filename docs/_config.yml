@@ -10,6 +10,3 @@ timezone: Asia/Tokyo
 header_pages:
   - en/index.md
   - ja/index.md
-
-exclude:
-  - robots.txt
