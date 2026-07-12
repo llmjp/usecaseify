@@ -94,6 +94,7 @@ Planned items describe direction, not commitments; they may change or be dropped
 - [Use case scoring framework (EN)](https://llmjp.github.io/usecaseify/en/guides/use-case-scoring-framework/) / [スコアリングフレームワーク (JA)](https://llmjp.github.io/usecaseify/ja/guides/use-case-scoring-framework/)
 - [UseCaseify vs ChatGPT (EN)](https://llmjp.github.io/usecaseify/en/comparisons/usecaseify-vs-chatgpt/) / [UseCaseify と ChatGPT の違い (JA)](https://llmjp.github.io/usecaseify/ja/comparisons/usecaseify-vs-chatgpt/)
 - [AI limitations (EN)](https://llmjp.github.io/usecaseify/en/ai-limitations/) / [AI の限界 (JA)](https://llmjp.github.io/usecaseify/ja/ai-limitations/)
+- [Privacy and data overview (EN)](https://llmjp.github.io/usecaseify/en/privacy-and-data/) / [プライバシーとデータの扱い (JA)](https://llmjp.github.io/usecaseify/ja/privacy-and-data/)
 - [llms.txt](https://llmjp.github.io/usecaseify/llms.txt) — machine-readable summary for AI systems
 
 ## Official links

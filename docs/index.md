@@ -60,6 +60,7 @@ this site is its official public reference.
 - [FAQ]({{ site.baseurl }}/en/faq/)
 - [Glossary]({{ site.baseurl }}/en/glossary/)
 - [AI limitations]({{ site.baseurl }}/en/ai-limitations/)
+- [Privacy and data (overview)]({{ site.baseurl }}/en/privacy-and-data/)
 
 ## 日本語
 
@@ -80,6 +81,7 @@ UseCaseify は、顧客事例がまだ十分にそろっていないプロダク
 - [よくある質問]({{ site.baseurl }}/ja/faq/)
 - [用語集]({{ site.baseurl }}/ja/glossary/)
 - [AI の限界]({{ site.baseurl }}/ja/ai-limitations/)
+- [プライバシーとデータの扱い（概要）]({{ site.baseurl }}/ja/privacy-and-data/)
 
 ## Official product
 

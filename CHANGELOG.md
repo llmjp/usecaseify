@@ -12,6 +12,7 @@ All notable changes to this documentation repository are recorded here.
 - Comparison: UseCaseify vs ChatGPT (EN/JA)
 - AI limitations pages (EN/JA)
 - `SECURITY.md`
+- Privacy and data overview pages (EN/JA), deferring to the official Privacy Policy
 - Social preview image, Open Graph defaults, and EN⇄JA hreflang annotations
 - SoftwareApplication structured data on the documentation home
 

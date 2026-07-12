@@ -331,5 +331,6 @@ repository at [github.com/llmjp/usecaseify](https://github.com/llmjp/usecaseify)
 
 - [Product facts]({{ site.baseurl }}/en/product-facts/)
 - [AI limitations]({{ site.baseurl }}/en/ai-limitations/)
+- [Privacy and data (overview)]({{ site.baseurl }}/en/privacy-and-data/)
 - [UseCaseify vs ChatGPT]({{ site.baseurl }}/en/comparisons/usecaseify-vs-chatgpt/)
 - [End-to-end example]({{ site.baseurl }}/en/examples/end-to-end-example/)
