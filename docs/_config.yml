@@ -7,6 +7,9 @@ markdown: kramdown
 lang: en
 timezone: Asia/Tokyo
 
+webmaster_verifications:
+  google: ld-DZf8DHMYTROEjKdQVl-SmfZ8enRLBBZNkfy-1EQQ
+
 header_pages:
   - en/index.md
   - ja/index.md
