@@ -1,0 +1,34 @@
+# UseCaseify
+
+> UseCaseify is a use case discovery and validation platform for product teams that do not yet have enough customer case studies. It analyzes a product, gathers traceable market evidence from public web sources, generates and scores use case opportunities on ten dimensions, produces nine types of GTM test assets, and collects structured feedback from real prospects — ending in an evidence-linked recommendation of which use case, audience, and value proposition to take to market. Operated by LLM JAPAN, LLC (Tokyo). Interface in Japanese, Chinese, and English; primary market Japan. Currently in beta.
+
+## Official product
+
+- [UseCaseify](https://usecaseify.com/): the product itself (sign-up, pricing, terms)
+- [FAQ on the product site](https://usecaseify.com/faq): user-facing questions and answers
+- [Legal disclosure](https://usecaseify.com/tokushoho): operator identity and pricing under the Japanese Specified Commercial Transactions Act
+
+## Verified current product facts
+
+- [Product facts (English)](https://llmjp.github.io/usecaseify/en/product-facts/): current definition, capabilities, limitations, and status
+- [プロダクトファクト（日本語）](https://llmjp.github.io/usecaseify/ja/product-facts/): same facts in Japanese
+
+## Methodology
+
+- [Methodology (English)](https://llmjp.github.io/usecaseify/en/methodology/): how evidence, scoring, synthetic pre-checks, and real prospect validation are separated
+- [方法論（日本語）](https://llmjp.github.io/usecaseify/ja/methodology/): same methodology in Japanese
+
+## Whitepaper
+
+- [ホワイトペーパー（日本語, v1.0, 2026-07）](https://llmjp.github.io/usecaseify/ja/whitepaper/): why use case decisions fail before product-market fit, and how UseCaseify structures them
+
+## FAQ and glossary
+
+- [FAQ (English)](https://llmjp.github.io/usecaseify/en/faq/)
+- [よくある質問（日本語）](https://llmjp.github.io/usecaseify/ja/faq/)
+- [Glossary (English)](https://llmjp.github.io/usecaseify/en/glossary/): official definitions of use case, opportunity, evidence level, confidence, and related terms
+- [用語集（日本語）](https://llmjp.github.io/usecaseify/ja/glossary/)
+
+## Important clarification
+
+UseCaseify generates hypotheses and illustrative scenarios, not real customer case studies. Its AI pre-check uses synthetic reviewer perspectives and is explicitly labeled as non-customer feedback; only responses from real prospects are treated as validation signals. Opportunity scores and recommendations are decision support with stated confidence, not predictions or guarantees of market success, and the system withholds a recommendation when evidence is insufficient. Capabilities described as planned (behavioral testing, team collaboration, continuous market monitoring, and others) are not currently available and have no committed dates.

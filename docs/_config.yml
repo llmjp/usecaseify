@@ -1,0 +1,15 @@
+title: "UseCaseify Documentation"
+description: "Official public documentation for UseCaseify, the use case discovery and validation platform for product teams that do not yet have enough customer case studies. Product facts, methodology, FAQ, glossary, and whitepaper in English and Japanese."
+url: "https://llmjp.github.io"
+baseurl: "/usecaseify"
+theme: minima
+markdown: kramdown
+lang: en
+timezone: Asia/Tokyo
+
+header_pages:
+  - en/index.md
+  - ja/index.md
+
+exclude:
+  - robots.txt

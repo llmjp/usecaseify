@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you reference UseCaseify or this documentation, please cite it as below."
+title: "UseCaseify public documentation and product facts"
+type: report
+version: "1.0.0"
+date-released: "2026-07-12"
+url: "https://github.com/llmjp/usecaseify"
+authors:
+  - name: "LLM JAPAN, LLC"
+    website: "https://usecaseify.com/"
+preferred-citation:
+  type: report
+  title: "UseCaseify: Use Case Discovery & Validation — public documentation"
+  year: 2026
+  publisher:
+    name: "LLM JAPAN, LLC"
+  url: "https://llmjp.github.io/usecaseify/"

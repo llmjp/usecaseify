@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://llmjp.github.io/usecaseify/sitemap.xml
