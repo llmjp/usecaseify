@@ -61,7 +61,7 @@ UseCaseify が設計されているのは、問いが「うちのユースケー
 
 ---
 
-*UseCaseify を試す：[usecaseify.com](https://usecaseify.com/) — 登録で体験クレジット付与、クレジットカード不要。*
+*UseCaseify を試す：[usecaseify.com](https://usecaseify.com/) — 登録で 2 credits、クレジットカード不要。*
 
 ## 関連ドキュメント
 

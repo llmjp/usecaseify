@@ -91,7 +91,7 @@ score's history tells you not just where the bet stands, but what moved it.
 
 ---
 
-*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — 2 credits on sign-up, no credit card required.*
 
 ## Related documentation
 

@@ -97,7 +97,7 @@ permalink: /en/faq/
       "name": "How much does UseCaseify cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pricing is credit-based: a monthly subscription plus pay-as-you-go credit top-ups, with a free trial credit on sign-up that requires no credit card. As of July 2026 the monthly plan is 9,800 yen including tax with 20 credits per billing period, and top-ups are 980 yen per credit; pricing is provisional during beta. The authoritative pricing is on usecaseify.com and its legal disclosure page."
+        "text": "Pricing is credit-based. Sign-up includes 2 credits with no card required. One Discovery (public-web research plus four reviewable Opportunities) costs 1 credit; each GTM Pack generation or explicit regeneration costs 1 credit. Credits are reserved at start and captured on delivery; a Discovery below four cards, terminal failure, or cancellation automatically releases the reservation, and automatic retries never double-charge. As of July 2026 the monthly plan is 9,800 yen including tax with 20 credits per billing period, and top-ups are 980 yen per credit."
       }
     },
     {
@@ -258,10 +258,13 @@ UseCaseify does not use private databases or claim real-time market feeds.
 
 ## How much does UseCaseify cost?
 
-Pricing is credit-based: a monthly subscription plus pay-as-you-go credit
-top-ups, with a free trial credit on sign-up that requires no credit card. As
-of July 2026 the monthly plan is ¥9,800 including tax with 20 credits per
-billing period, and top-ups are ¥980 per credit; pricing is provisional during beta. The authoritative pricing is on
+Pricing is credit-based. Sign-up includes 2 credits with no card required. One
+Discovery (public-web research plus four reviewable Opportunities) costs 1
+credit; each GTM Pack generation or explicit regeneration costs 1 credit.
+Credits are reserved at start and captured on delivery; a Discovery below four
+cards, terminal failure, or cancellation releases the reservation, and automatic
+retries never double-charge. As of July 2026 the monthly plan is ¥9,800 including
+tax with 20 credits per billing period, and top-ups are ¥980 per credit. The authoritative pricing is on
 [usecaseify.com](https://usecaseify.com/) and its
 [legal disclosure page](https://usecaseify.com/tokushoho).
 
@@ -329,7 +332,7 @@ repository at [github.com/llmjp/usecaseify](https://github.com/llmjp/usecaseify)
 
 ---
 
-*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — 2 credits on sign-up, no credit card required.*
 
 ## Related documentation
 

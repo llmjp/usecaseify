@@ -98,7 +98,7 @@ UseCaseify はまさにこのループを製品として実行します：反証
 
 ---
 
-*UseCaseify を試す：[usecaseify.com](https://usecaseify.com/) — 登録で体験クレジット付与、クレジットカード不要。*
+*UseCaseify を試す：[usecaseify.com](https://usecaseify.com/) — 登録で 2 credits、クレジットカード不要。*
 
 ## 関連ドキュメント
 

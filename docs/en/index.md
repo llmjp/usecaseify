@@ -42,4 +42,4 @@ works, and what it does not claim.
 
 Japanese documentation is at [日本語ドキュメント]({{ site.baseurl }}/ja/).
 
-*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — 2 credits on sign-up, no credit card required.*

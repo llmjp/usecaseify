@@ -6,7 +6,7 @@
 
 UseCaseify（ユースケーシファイ）は、出典をたどれる市場エビデンスと実在の見込み顧客からのフィードバックをもとに、「誰に・どのユースケースを・どんな価値提案で」市場に出すかを決められる、ユースケース発見・検証プラットフォームです。製品情報の分析からエビデンス収集、機会のスコアリング、検証用 GTM 素材の作成、見込み顧客からのフィードバック収集までを一つのワークフローにまとめ、勘に頼らない GTM の意思決定を支援します。
 
-**Try it:** [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.
+**Try it:** [usecaseify.com](https://usecaseify.com/) — 2 credits on sign-up, no credit card required.
 
 ## What problem does UseCaseify address?
 

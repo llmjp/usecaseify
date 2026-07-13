@@ -2,6 +2,20 @@
 
 All notable changes to this documentation repository are recorded here.
 
+## 1.3.0 — 2026-07-13
+
+### Changed
+
+- Documented the live credit contract: 2 credits on sign-up, 1 credit for a
+  delivered Discovery, and 1 credit for each GTM Pack generation or explicit
+  regeneration
+- Clarified reservation, delivery settlement, automatic release, and
+  retry-idempotency behavior across Product facts, FAQ, and both `llms.txt`
+  files
+- Documented how explicit product-user choices and quality feedback are stored,
+  the Settings-controlled UseCaseify-specific training eligibility, and the
+  exclusion of account, payment, and Validation respondent data
+
 ## 1.2.0 — 2026-07-13
 
 ### Changed

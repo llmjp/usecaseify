@@ -19,9 +19,15 @@ If this page and the policy ever differ, the policy prevails.
   private databases are used.
 - The product information and files you provide are processed to deliver the
   product's functions (product profile drafting, research, generation).
-- Private product inputs, research content, and validation responses are not
-  reused to generate results for other customers or provided for the purpose
-  of training a general-purpose AI model.
+- Explicit product-user choices and quality feedback are stored with the exact
+  content version, model, and prompt version for issue analysis. When enabled
+  in Settings, they may also be used to evaluate, improve, or train
+  UseCaseify-specific models. The setting can be changed at any time.
+  Disabling it excludes existing records that have not yet been exported for
+  training, as well as future records.
+- Account and payment data, plus validation respondents' contact details and
+  answers, are not training data. Private data is not provided to train a
+  third party's general-purpose AI model.
 - **Validation respondents answer anonymously, without an account**, and
   consent is obtained and recorded explicitly. Leaving contact details is
   optional, and contact data is managed separately from answers.

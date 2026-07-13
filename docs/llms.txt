@@ -54,3 +54,14 @@ UseCaseify is the product. LLM JAPAN, LLC is the operator. https://usecaseify.co
 ## Important clarification
 
 UseCaseify generates hypotheses and illustrative scenarios, not real customer case studies. Its AI pre-check uses synthetic reviewer perspectives and is explicitly labeled as non-customer feedback; only responses from real prospects are treated as validation signals. Opportunity scores, supported recommendations, and priority validation candidates are decision support with stated confidence, not predictions or guarantees of market success. A priority validation candidate is an early hypothesis, not validated demand; when no candidate passes its guardrails, the recommendation is withheld. The end-to-end example uses a clearly-labeled fictional product, not a real customer. Capabilities described as planned (behavioral testing, team collaboration, PDF export, continuous market monitoring, and others) are not currently available and have no committed dates. When documents conflict, the Product facts page is the current source of truth.
+
+## Pricing and credit settlement
+
+- Sign-up includes 2 credits without a credit card. The monthly plan is ¥9,800 with 20 credits per billing period; top-ups are ¥980 per credit.
+- One Discovery costs 1 credit when it delivers public-web research plus four reviewable Opportunities. Each GTM Pack generation or explicit regeneration costs 1 credit.
+- A billed operation reserves its credit at start and captures it on delivery. Discovery below four cards, terminal failure, or cancellation releases the reservation; automatic retries never double-charge.
+
+## Quality feedback data
+
+- Explicit opportunity choices, revision requests, score overrides, and GTM Pack ratings are stored with the exact content, model, and prompt version for issue analysis.
+- They may be used to evaluate, improve, or train UseCaseify-specific models only when enabled by the product user in Settings. Account/payment data and validation respondents' contact details and answers are excluded from training.

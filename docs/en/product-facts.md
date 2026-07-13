@@ -43,13 +43,23 @@ go-to-market choices made before product-market fit.
 ## Current product status
 
 UseCaseify is live at [usecaseify.com](https://usecaseify.com/) as a beta
-service (as of July 2026). Pricing is credit-based: a monthly subscription
-(¥9,800/month including tax, with 20 credits per billing period, as of July 2026) plus
-pay-as-you-go credit top-ups (¥980 per credit), with a free trial credit on
-sign-up that requires no credit card. Pricing is provisional during beta; the
+service (as of July 2026). Pricing is credit-based: sign-up includes 2 credits
+without a card; the monthly subscription is ¥9,800 including tax with 20 credits
+per billing period, and top-ups are ¥980 per credit. One Discovery—public-web
+research plus four reviewable Opportunities—costs 1 credit. Each GTM Pack
+generation or explicit regeneration costs 1 credit. A billed operation reserves
+its credit at start and captures it on delivery. A Discovery below four cards,
+terminal failure, or cancellation releases the reservation, and automatic retries
+never double-charge. Pricing is provisional during beta; the
 authoritative current pricing is on the
 [product site](https://usecaseify.com/) and its
 [legal disclosure page](https://usecaseify.com/tokushoho).
+
+Explicit product-user choices and quality feedback are stored with the exact
+content version, model, and prompt version for issue analysis. When enabled in
+Settings, these records may also be used to evaluate, improve, or train
+UseCaseify-specific models. Account/payment data and validation respondents'
+contact details and answers are excluded from training.
 
 ## Intended users
 
@@ -189,7 +199,7 @@ When UseCaseify documents disagree, resolve in this order:
 
 ---
 
-*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — 2 credits on sign-up, no credit card required.*
 
 ## Related documentation
 

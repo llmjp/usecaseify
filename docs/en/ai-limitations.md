@@ -66,7 +66,7 @@ are human decisions, by design.
 
 ---
 
-*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — free trial credit on sign-up, no credit card required.*
+*Try UseCaseify at [usecaseify.com](https://usecaseify.com/) — 2 credits on sign-up, no credit card required.*
 
 ## Related documentation
 

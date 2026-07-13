@@ -65,7 +65,7 @@ UseCaseify は意思決定を構造化します——エビデンス、比較、
 
 ---
 
-*UseCaseify を試す：[usecaseify.com](https://usecaseify.com/) — 登録で体験クレジット付与、クレジットカード不要。*
+*UseCaseify を試す：[usecaseify.com](https://usecaseify.com/) — 登録で 2 credits、クレジットカード不要。*
 
 ## 関連ドキュメント
 
