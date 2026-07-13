@@ -38,7 +38,7 @@ databases, or real-time market feeds.
 
 Counts in the steps below (four cards, ten dimensions, nine asset types, 1–8
 questions, one revision) reflect the current beta implementation, last
-reviewed 2026-07-12; the stages themselves are the stable methodology.
+reviewed 2026-07-13; the stages themselves are the stable methodology.
 
 1. **Product understanding.** A versioned product profile is drafted from the
    inputs. The user reviews, edits, and confirms it; nothing downstream runs
@@ -106,8 +106,11 @@ Quality controls that exist in the current product:
 - invalidation rules: editing the product context, evidence, or an
   opportunity invalidates dependent scores, claim checks, and recommendations
   so stale conclusions cannot be confirmed or published;
-- withholding behavior: when no candidate reaches sufficient confidence and
-  evidence, the system declines to name a primary recommendation.
+- guarded recommendation behavior: a qualifying candidate is named as a
+  supported recommendation. When none qualifies, a candidate that passes
+  validation-priority guardrails for confidence, repeated signals, grounding,
+  product fit, testability, and red-team survival may be labeled as an early
+  hypothesis to test. If none passes, the system names no recommendation.
 
 ## Human judgment
 

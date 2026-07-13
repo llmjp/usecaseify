@@ -2,6 +2,19 @@
 
 All notable changes to this documentation repository are recorded here.
 
+## 1.2.0 — 2026-07-13
+
+### Changed
+
+- Synchronized Product facts, Methodology, FAQ, scoring guides, AI limitations,
+  whitepapers, README, and both `llms.txt` files with the deployed three-way
+  decision behavior: supported recommendation, explicitly labeled priority
+  validation candidate, or no recommendation when guardrails are not met
+- Clarified that a priority validation candidate is an early hypothesis to
+  test, not validated demand or a guaranteed market outcome
+- Re-reviewed current beta counts and pricing against the deployed product
+- Refreshed sitemap modification dates for the site-wide public-content audit
+
 ## 1.1.0 — 2026-07-12
 
 ### Added

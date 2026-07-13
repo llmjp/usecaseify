@@ -1,12 +1,14 @@
 # UseCaseify
 
-> UseCaseify is a use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects instead of guesswork. It analyzes a product, gathers cited evidence from public web sources, generates and scores use case opportunities on ten dimensions, produces nine types of GTM test assets, and collects structured feedback from real prospects, ending in an evidence-linked recommendation. Built for teams that do not yet have enough customer case studies. Operated by LLM JAPAN, LLC (Tokyo). Interface in Japanese, Chinese, and English; primary market Japan. Currently in beta.
+> UseCaseify is a use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects instead of guesswork. It analyzes a product, gathers cited evidence from public web sources, generates and scores use case opportunities on ten dimensions, produces nine types of GTM test assets, and collects structured feedback from real prospects, ending in a supported recommendation or a clearly labeled priority validation candidate when evidence is still early. Built for teams that do not yet have enough customer case studies. Operated by LLM JAPAN, LLC (Tokyo). Interface in Japanese, Chinese, and English; primary market Japan. Currently in beta.
 
 ## Official product
 
 - [UseCaseify](https://usecaseify.com/): the product itself (sign-up, pricing, terms)
 - [FAQ on the product site](https://usecaseify.com/faq): user-facing questions and answers
 - [Legal disclosure](https://usecaseify.com/tokushoho): operator identity and pricing under the Japanese Specified Commercial Transactions Act
+- [Terms of Service](https://usecaseify.com/terms)
+- [Privacy Policy](https://usecaseify.com/privacy): authoritative current data handling, processors, retention, and deletion terms
 
 ## Verified current product facts
 
@@ -17,7 +19,7 @@
 
 - [Methodology (English)](https://llmjp.github.io/usecaseify/en/methodology/): how evidence, scoring, synthetic pre-checks, and real prospect validation are separated
 - [方法論（日本語）](https://llmjp.github.io/usecaseify/ja/methodology/): same methodology in Japanese
-- [Use case scoring framework (English)](https://llmjp.github.io/usecaseify/en/guides/use-case-scoring-framework/): what the ten dimensions measure and when a recommendation is withheld
+- [Use case scoring framework (English)](https://llmjp.github.io/usecaseify/en/guides/use-case-scoring-framework/): what the ten dimensions measure and how supported recommendations differ from priority validation candidates
 - [スコアリングフレームワーク（日本語）](https://llmjp.github.io/usecaseify/ja/guides/use-case-scoring-framework/)
 
 ## Whitepapers
@@ -42,6 +44,8 @@
 - [用語集（日本語）](https://llmjp.github.io/usecaseify/ja/glossary/)
 - [AI limitations (English)](https://llmjp.github.io/usecaseify/en/ai-limitations/): what the AI can and cannot tell you
 - [AI の限界（日本語）](https://llmjp.github.io/usecaseify/ja/ai-limitations/)
+- [Privacy and data overview (English)](https://llmjp.github.io/usecaseify/en/privacy-and-data/)
+- [プライバシーとデータの扱い（日本語）](https://llmjp.github.io/usecaseify/ja/privacy-and-data/)
 
 ## Entity relationships
 
@@ -49,4 +53,4 @@ UseCaseify is the product. LLM JAPAN, LLC is the operator. https://usecaseify.co
 
 ## Important clarification
 
-UseCaseify generates hypotheses and illustrative scenarios, not real customer case studies. Its AI pre-check uses synthetic reviewer perspectives and is explicitly labeled as non-customer feedback; only responses from real prospects are treated as validation signals. Opportunity scores and recommendations are decision support with stated confidence, not predictions or guarantees of market success, and the system withholds a recommendation when evidence is insufficient. The end-to-end example uses a clearly-labeled fictional product, not a real customer. Capabilities described as planned (behavioral testing, team collaboration, PDF export, continuous market monitoring, and others) are not currently available and have no committed dates. When documents conflict, the Product facts page is the current source of truth.
+UseCaseify generates hypotheses and illustrative scenarios, not real customer case studies. Its AI pre-check uses synthetic reviewer perspectives and is explicitly labeled as non-customer feedback; only responses from real prospects are treated as validation signals. Opportunity scores, supported recommendations, and priority validation candidates are decision support with stated confidence, not predictions or guarantees of market success. A priority validation candidate is an early hypothesis, not validated demand; when no candidate passes its guardrails, the recommendation is withheld. The end-to-end example uses a clearly-labeled fictional product, not a real customer. Capabilities described as planned (behavioral testing, team collaboration, PDF export, continuous market monitoring, and others) are not currently available and have no committed dates. When documents conflict, the Product facts page is the current source of truth.

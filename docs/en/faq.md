@@ -73,7 +73,7 @@ permalink: /en/faq/
       "name": "How does opportunity scoring work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Each opportunity is scored on ten dimensions: pain frequency, pain severity, urgency, existing spend, product fit, reachability, differentiation, evidence quality, testability, and strategic fit. Each dimension is reasoned independently, and the total is a deterministic weighted sum, not a model's overall impression. Confidence (low, medium, high) and evidence level are reported separately, you can override scores manually, and the system withholds a primary recommendation when evidence is insufficient."
+        "text": "Each opportunity is scored on ten dimensions: pain frequency, pain severity, urgency, existing spend, product fit, reachability, differentiation, evidence quality, testability, and strategic fit. Each dimension is reasoned independently, and the total is a deterministic weighted sum, not a model's overall impression. Confidence and evidence level are reported separately, and scores can be overridden manually. A qualifying candidate becomes a supported recommendation. If none qualifies but one passes the validation-priority guardrails, it is labeled a priority validation candidate—an early hypothesis, not validated demand. If none passes, no recommendation is named."
       }
     },
     {
@@ -97,7 +97,7 @@ permalink: /en/faq/
       "name": "How much does UseCaseify cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pricing is credit-based: a monthly subscription plus pay-as-you-go credit top-ups, with a free trial credit on sign-up that requires no credit card. As of July 2026 the monthly plan is 9,800 yen including tax and top-ups are 980 yen per credit; pricing is provisional during beta. The authoritative pricing is on usecaseify.com and its legal disclosure page."
+        "text": "Pricing is credit-based: a monthly subscription plus pay-as-you-go credit top-ups, with a free trial credit on sign-up that requires no credit card. As of July 2026 the monthly plan is 9,800 yen including tax with 20 credits per billing period, and top-ups are 980 yen per credit; pricing is provisional during beta. The authoritative pricing is on usecaseify.com and its legal disclosure page."
       }
     },
     {
@@ -235,8 +235,12 @@ urgency, existing spend, product fit, reachability, differentiation, evidence
 quality, testability, and strategic fit. Each dimension is reasoned
 independently, and the total is a deterministic weighted sum, not a model's
 overall impression. Confidence (low, medium, high) and evidence level are
-reported separately, you can override scores manually, and the system
-withholds a primary recommendation when evidence is insufficient.
+reported separately, and you can override scores manually. A qualifying
+candidate becomes a supported recommendation. If none qualifies but one
+passes guardrails for confidence, repeated signals, grounding, product fit,
+testability, and red-team survival, it is labeled a priority validation
+candidate—an early hypothesis, not validated demand. If none passes, no
+recommendation is named.
 
 ## Can UseCaseify guarantee that my product will succeed?
 
@@ -256,8 +260,8 @@ UseCaseify does not use private databases or claim real-time market feeds.
 
 Pricing is credit-based: a monthly subscription plus pay-as-you-go credit
 top-ups, with a free trial credit on sign-up that requires no credit card. As
-of July 2026 the monthly plan is ¥9,800 including tax and top-ups are ¥980 per
-credit; pricing is provisional during beta. The authoritative pricing is on
+of July 2026 the monthly plan is ¥9,800 including tax with 20 credits per
+billing period, and top-ups are ¥980 per credit; pricing is provisional during beta. The authoritative pricing is on
 [usecaseify.com](https://usecaseify.com/) and its
 [legal disclosure page](https://usecaseify.com/tokushoho).
 

@@ -130,9 +130,12 @@ Two separations keep the score honest:
   single and repeated public signals, up to levels only real people can
   grant: prospect feedback and behavioral signal.
 
-When no candidate reaches sufficient confidence, the honest output is to
-**withhold the recommendation**. "The evidence does not support a bet yet"
-is a more valuable answer than a forced ranking.
+When no candidate qualifies as a supported recommendation, the system does
+not disguise a forced ranking as certainty. A candidate that still passes
+explicit guardrails for repeated signals, grounding, product fit,
+testability, confidence, and red-team survival may be labeled a **priority
+validation candidate**: an early hypothesis to test, not a market conclusion.
+If none passes, the honest output is to withhold the recommendation.
 
 ## 6. Synthetic feedback is not customer evidence
 

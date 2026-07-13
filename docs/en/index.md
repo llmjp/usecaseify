@@ -37,6 +37,8 @@ works, and what it does not claim.
   terms UseCaseify uses
 - [AI limitations]({{ site.baseurl }}/en/ai-limitations/) — what the AI can
   and cannot tell you
+- [Privacy and data]({{ site.baseurl }}/en/privacy-and-data/) — a concise
+  overview that defers to the product Privacy Policy
 
 Japanese documentation is at [日本語ドキュメント]({{ site.baseurl }}/ja/).
 

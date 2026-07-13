@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Use Case Scoring Framework: Ten Dimensions Explained"
-description: "How UseCaseify scores use case opportunities: what each of the ten dimensions measures, how the deterministic total works, why confidence is separate, and when a recommendation is withheld."
+description: "How UseCaseify scores use case opportunities: what each of the ten dimensions measures, how the deterministic total works, why confidence is separate, and how supported recommendations differ from priority validation candidates."
 permalink: /en/guides/use-case-scoring-framework/
 ---
 
@@ -70,12 +70,18 @@ public web does not. Overrides are recorded, and downstream conclusions
 (recommendations, reports) are invalidated and recomputed rather than left
 stale.
 
-## Why a recommendation is sometimes withheld
+## Supported recommendation, priority candidate, or no recommendation
 
-When no non-rejected candidate reaches sufficient confidence and evidence,
-UseCaseify names no primary recommendation. A forced ranking over weak
-evidence would be confident-sounding noise; "not enough evidence yet, here
-is what to test" is the more useful output.
+A non-rejected candidate with non-low confidence can qualify as a supported
+recommendation. If no candidate qualifies, UseCaseify does not silently turn
+the highest score into a recommendation. It may label a candidate a
+**priority validation candidate** only when the candidate has non-low
+confidence, repeated signals, at least one supporting source, adequate
+product fit and testability, and has survived red-team review. That label
+means "test this early hypothesis next," not "the market wants this."
+
+If no candidate passes those guardrails, UseCaseify names no recommendation
+and directs the user to collect stronger evidence.
 
 ## Rescoring after validation
 

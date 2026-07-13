@@ -9,7 +9,7 @@ permalink: /en/product-facts/
 
 > **Authority level:** current product facts ·
 > **Product stage:** beta ·
-> **Last reviewed:** 2026-07-12
+> **Last reviewed:** 2026-07-13
 
 This page is the authoritative public reference for current UseCaseify product
 behavior. It states only verifiable facts about the deployed product. When
@@ -44,7 +44,7 @@ go-to-market choices made before product-market fit.
 
 UseCaseify is live at [usecaseify.com](https://usecaseify.com/) as a beta
 service (as of July 2026). Pricing is credit-based: a monthly subscription
-(¥9,800/month including tax, with monthly credits, as of July 2026) plus
+(¥9,800/month including tax, with 20 credits per billing period, as of July 2026) plus
 pay-as-you-go credit top-ups (¥980 per credit), with a free trial credit on
 sign-up that requires no credit card. Pricing is provisional during beta; the
 authoritative current pricing is on the
@@ -64,7 +64,7 @@ authoritative current pricing is on the
 
 Each item below is a shipped behavior of the current product. Specific numbers
 (four cards, ten dimensions, nine asset types, 1–8 questions, one revision) are
-the current beta implementation as of 2026-07-12:
+the current beta implementation as of 2026-07-13:
 
 - **Product understanding.** A product profile is built from a website URL
   (a bounded crawl of public pages), uploaded files, or manual text. The
@@ -83,8 +83,13 @@ the current beta implementation as of 2026-07-12:
   differentiation, evidence quality, testability, strategic fit — are reasoned
   independently and combined into a deterministic weighted total. Confidence
   (low / medium / high) is tracked separately from the evidence level. Scores
-  can be manually overridden, and a primary recommendation is withheld when
-  evidence is insufficient.
+  can be manually overridden. A non-rejected, non-low-confidence candidate
+  can be named as a supported recommendation. If none qualifies, the system
+  may instead label the best candidate a **priority validation candidate**
+  when it passes guardrails for non-low confidence, repeated signals,
+  grounding, product fit, testability, and red-team survival. This is an
+  early hypothesis to test, not validated demand. If none passes those
+  guardrails, no recommendation is named.
 - **GTM test assets.** Nine asset types per opportunity: value proposition,
   headline, supporting benefits, landing page section, cold outreach message,
   interview guide, survey, call to action, and objection responses. Assets are
@@ -112,8 +117,9 @@ the current beta implementation as of 2026-07-12:
   not be presented as such.
 - Opportunity scores and recommendations are decision support, not
   predictions or guarantees of market success.
-- When evidence is insufficient, the system withholds a primary
-  recommendation rather than producing one.
+- A priority validation candidate is not a supported recommendation or proof
+  of demand. When no candidate passes its guardrails, the system withholds
+  the recommendation entirely.
 - UseCaseify does not replace full customer research, and it is not an
   advertising platform, a website builder, or a general-purpose marketing
   content suite.
@@ -179,7 +185,7 @@ When UseCaseify documents disagree, resolve in this order:
 
 ## Last reviewed
 
-2026-07-12, against the deployed product at usecaseify.com.
+2026-07-13, against the deployed product at usecaseify.com.
 
 ---
 

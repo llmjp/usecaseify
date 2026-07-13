@@ -45,9 +45,11 @@ never counted as a validation signal.
 
 Opportunity scores summarize today's evidence and reasoning through a
 deterministic formula. They inherit every limitation above, which is why
-confidence and evidence level are reported separately, scores can be
-manually overridden, and the recommendation is withheld when evidence is
-insufficient.
+confidence and evidence level are reported separately and scores can be
+manually overridden. A qualifying candidate can be shown as a supported
+recommendation. If none qualifies, a candidate that passes explicit
+validation-priority guardrails may be labeled as an early hypothesis to test;
+if none passes, the recommendation is withheld. Neither label predicts demand.
 
 ## Small samples are directional
 

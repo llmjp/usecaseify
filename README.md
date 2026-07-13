@@ -2,7 +2,7 @@
 
 > Find the use cases your market will actually respond to — before you have customer case studies.
 
-**UseCaseify** ([usecaseify.com](https://usecaseify.com/)) is a use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects instead of guesswork. It analyzes a product from its website, files, or a written description, gathers cited evidence from public web sources, generates and scores use case opportunities, produces the go-to-market assets needed to test them, and collects structured feedback from real prospects. The output is not a pile of ideas: it is a ranked, evidence-linked recommendation with the remaining uncertainties stated explicitly.
+**UseCaseify** ([usecaseify.com](https://usecaseify.com/)) is a use case discovery and validation platform that helps product teams decide which use case, audience, and value proposition to take to market — backed by traceable market evidence and feedback from real prospects instead of guesswork. It analyzes a product from its website, files, or a written description, gathers cited evidence from public web sources, generates and scores use case opportunities, produces the go-to-market assets needed to test them, and collects structured feedback from real prospects. The output is not a pile of ideas: it is a supported recommendation, a clearly labeled priority validation candidate when evidence is still early, or an explicit indication that no candidate passes the guardrails yet.
 
 UseCaseify（ユースケーシファイ）は、出典をたどれる市場エビデンスと実在の見込み顧客からのフィードバックをもとに、「誰に・どのユースケースを・どんな価値提案で」市場に出すかを決められる、ユースケース発見・検証プラットフォームです。製品情報の分析からエビデンス収集、機会のスコアリング、検証用 GTM 素材の作成、見込み顧客からのフィードバック収集までを一つのワークフローにまとめ、勘に頼らない GTM の意思決定を支援します。
 
@@ -20,13 +20,13 @@ In practice this decision work is scattered across search engines, note-taking t
 
 All of the following is live in the current product. Specific counts and limits
 (cards, dimensions, asset types, question ranges) describe the **current beta
-implementation** — last reviewed 2026-07-12 — and may be tuned during beta; the
+implementation** — last reviewed 2026-07-13 — and may be tuned during beta; the
 workflow itself is the stable part.
 
 - **Product understanding** — Build a product profile from a website URL (bounded crawl of public pages), uploaded files, or manual text. The profile is versioned, and you review, edit, and confirm it before anything downstream runs.
 - **Market research and evidence** — Multilingual web research collects verbatim quotes with their sources, classified as supporting, contradicting, neutral, or context. You can add your own evidence and filter the evidence workspace.
 - **Opportunity discovery** — The system generates use case opportunity candidates, screens them through structural validation and red-team review, and presents four opportunity cards. You approve or reject each card, and each card can be revised once by AI based on your written feedback.
-- **Opportunity scoring and recommendation** — Ten dimensions (pain frequency, pain severity, urgency, existing spend, product fit, reachability, differentiation, evidence quality, testability, strategic fit) are reasoned independently and combined into a deterministic weighted total. Confidence (low / medium / high) is tracked separately from the evidence level. You can override scores manually, and the system withholds a primary recommendation when evidence is too weak instead of forcing a conclusion.
+- **Opportunity scoring and recommendation** — Ten dimensions (pain frequency, pain severity, urgency, existing spend, product fit, reachability, differentiation, evidence quality, testability, strategic fit) are reasoned independently and combined into a deterministic weighted total. Confidence (low / medium / high) is tracked separately from the evidence level. You can override scores manually. A candidate that clears the recommendation rules is shown as supported; when none does, a candidate that passes the validation-priority guardrails may be shown as an early hypothesis to test. If none passes, no recommendation is named.
 - **GTM test assets** — Nine asset types per opportunity: value proposition, headline, supporting benefits, landing page section, cold outreach message, interview guide, survey, call to action, and objection responses. Assets are versioned, editable, regenerable, and checked for claims not supported by the underlying opportunity.
 - **AI pre-check** — Five synthetic reviewer perspectives critique the selected opportunity and its assets. Results are explicitly labeled as synthetic, non-customer feedback, and objections can be converted into validation questions.
 - **Prospect validation** — Publish a public or password-protected validation page with 1–8 questions. Respondents answer anonymously without an account, with explicit consent handling; leaving contact details is optional.
@@ -47,7 +47,7 @@ UseCaseify is not aimed at large enterprises with mature customer-research teams
 1. Enter your product's URL, upload files, or describe the product in text; review and confirm the product profile UseCaseify builds from it.
 2. UseCaseify researches public web sources and records verbatim evidence with citations, separated into supporting, contradicting, neutral, and context.
 3. It generates use case opportunity candidates, filters them through red-team review, and presents four cards for your judgment.
-4. You approve or reject each card. Every card carries a ten-dimension score, a confidence rating, and — when evidence permits — a primary recommendation with reasons.
+4. You approve or reject each card. Every card carries a ten-dimension score and a confidence rating. The decision layer names either a supported recommendation, a clearly labeled priority validation candidate, or no candidate when the guardrails are not met.
 5. For the opportunity you choose, UseCaseify generates the nine GTM test assets, with unsupported-claim checks.
 6. Optionally run the synthetic AI pre-check, then publish a validation page and share it with real prospects.
 7. Prospect responses produce score-change suggestions and an updated recommendation; you accept or decline them, then lock the decision into a shareable report.
@@ -56,7 +56,7 @@ UseCaseify is not aimed at large enterprises with mature customer-research teams
 
 - **Traceable evidence.** Research findings keep their source and original wording, and are explicitly separated into supporting, contradicting, neutral, and context.
 - **Facts, inference, and feedback are never mixed.** AI-generated scenarios are hypotheses; the AI pre-check is labeled synthetic; only real prospect responses count as validation signals.
-- **Confidence is separate from the score.** A high score with weak evidence is shown as exactly that, and the system withholds recommendations rather than fabricating certainty.
+- **Confidence is separate from the score.** A high score with weak evidence is shown as exactly that. A priority validation candidate is labeled as an early hypothesis, never validated demand; if its guardrails are not met, the system withholds the recommendation.
 - **Humans make the final call.** The product profile, opportunity shortlist, score overrides, and score-change suggestions all require explicit user confirmation.
 
 See [Methodology](https://llmjp.github.io/usecaseify/en/methodology/) for details.
@@ -118,5 +118,5 @@ To cite UseCaseify or this documentation, use the metadata in [CITATION.cff](CIT
 
 ## Last reviewed
 
-2026-07-12, against the deployed product at [usecaseify.com](https://usecaseify.com/).
+2026-07-13, against the deployed product at [usecaseify.com](https://usecaseify.com/).
 For conflicts between documents, [Product facts](https://llmjp.github.io/usecaseify/en/product-facts/) is the current source of truth.
